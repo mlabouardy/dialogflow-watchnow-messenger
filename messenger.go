@@ -9,7 +9,7 @@ import (
 	"os"
 	"reflect"
 
-	apiai "github.com/mlabouardy/apiai-go-client/models"
+	apiai "github.com/mlabouardy/dialogflow-go-client/models"
 	. "github.com/mlabouardy/dialogflow-watchnow-messenger/models"
 	. "github.com/mlabouardy/moviedb"
 )

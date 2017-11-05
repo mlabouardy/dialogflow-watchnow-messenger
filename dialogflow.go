@@ -4,12 +4,12 @@ import (
 	"log"
 	"os"
 
-	. "github.com/mlabouardy/apiai-go-client"
-	apiai "github.com/mlabouardy/apiai-go-client/models"
+	. "github.com/mlabouardy/dialogflow-go-client"
+	apiai "github.com/mlabouardy/dialogflow-go-client/models"
 )
 
 func GetResponse(input string) apiai.Result {
-	err, client := NewApiAiClient(apiai.Options{
+	err, client := NewDialogFlowClient(apiai.Options{
 		AccessToken: os.Getenv("DIALOG_FLOW_TOKEN"),
 	})
 	if err != nil {
