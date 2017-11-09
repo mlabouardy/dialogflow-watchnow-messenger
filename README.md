@@ -15,7 +15,7 @@
 
 ## How to setup
 
--
+- [Bot in Messenger with DialogFlow & Golang](http://www.blog.labouardy.com/bot-in-messenger-with-dialogflow-golang/)
 
 ## Maintainers
 
